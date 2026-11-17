@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+dist/
+.next/
+out/
+coverage/
+
+# Local databases
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets (keep the examples)
+.env
+.env.*
+!.env.example
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log
